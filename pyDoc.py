@@ -28,10 +28,12 @@ $$ |      \$$$$$$  |
         file1 = input("First PDF path > ")
         file2 = input("Second PDF Path > ")
         files = [file1,file2]
+
+        merged = input('Please write the name of the new file > ')
         merger = pypdf.PdfWriter()
         for file in files :
             merger.append(file)
-        merger.write('merged_copy.pdf')
+        merger.write(merged)
         print('-'*15)
         print(f"{file1} and {file2} have successfully merged together.")
         merger.close()
