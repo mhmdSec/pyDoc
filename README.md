@@ -2,8 +2,6 @@
 
 A lightweight, terminal-based PDF tool built with Python. Effortlessly merge, split, encrypt, and extract text from your PDF documents.
 
-![Python Version](https://img.shields.io)
-![Library](https://img.shields.io)
 
 ## 🚀 Features
 
